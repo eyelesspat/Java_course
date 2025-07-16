@@ -8,9 +8,9 @@ public class Sum3And5Challenge {
                 sum += i;
                 System.out.println(i + " is being added");
                 count++;
-                if (count >= 5) {
-                    break;
-                }
+            }
+            if (count >= 5) {
+                break;
             }
         }
         System.out.println(count + " numbers divisible by 3 and 5 add up to: " + sum);
